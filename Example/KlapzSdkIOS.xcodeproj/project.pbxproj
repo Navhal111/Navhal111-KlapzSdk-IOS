@@ -40,13 +40,13 @@
 		607FACE51AFB9204008FA782 /* KlapzSdkIOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlapzSdkIOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9A21B70302F340239E99203A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9A21B70302F340239E99203A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9CBEAE749E36200CBBDD7B0A /* Pods-KlapzSdkIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlapzSdkIOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-KlapzSdkIOS_Example/Pods-KlapzSdkIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A161AA5972842FE18CB4D556 /* Pods_KlapzSdkIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlapzSdkIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4F99B182E69D6495FFDD5F9 /* KlapzSdkIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KlapzSdkIOS.podspec; path = ../KlapzSdkIOS.podspec; sourceTree = "<group>"; };
+		B4F99B182E69D6495FFDD5F9 /* KlapzSdkIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KlapzSdkIOS.podspec; path = ../KlapzSdkIOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C7475B46EF0A425D00920F4E /* Pods-KlapzSdkIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KlapzSdkIOS_Example.release.xcconfig"; path = "Target Support Files/Pods-KlapzSdkIOS_Example/Pods-KlapzSdkIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9202B5FFDDB4AF5A902CE8C /* Pods_KlapzSdkIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KlapzSdkIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD25669708D8CA0FE3B45512 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CD25669708D8CA0FE3B45512 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				41E8130E7A17DEA16FBB3C01 /* Pods-KlapzSdkIOS_Tests.debug.xcconfig */,
 				5A1E565C20AED0479E654D7D /* Pods-KlapzSdkIOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

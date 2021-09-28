@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint KlapzSdkIOS.podspec' to ensure this is a
+# Be sure to run `pod lib lint KlapzSdk-IOS.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'KlapzSdkIOS'
+  s.name             = 'KlapzSdk-IOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KlapzSdkIOS.'
+  s.summary          = 'KlapzSdk-IOS Klap you fev content using sdk.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Navhal Ritesh/KlapzSdkIOS'
+  s.homepage         = 'https://github.com/Navhal111/KlapzSdkIOS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Navhal Ritesh' => 'ylight528@gmail.com' }
-  s.source           = { :git => 'https://github.com/Navhal Ritesh/KlapzSdkIOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Navhal111/KlapzSdkIOS.git', :tag => "master" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'KlapzSdkIOS/Classes/**/*'
+  s.source_files = 'KlapzSdk-IOS/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'KlapzSdkIOS' => ['KlapzSdkIOS/Assets/*.png']
+  #   'KlapzSdk-IOS' => ['KlapzSdk-IOS/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
